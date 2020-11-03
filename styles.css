@@ -1,6 +1,6 @@
 .name {
   font-family: 'Lobster', cursive;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 #carousel {
@@ -18,4 +18,20 @@ button {
 
 .navbar {
   background-color: #364f6b;
+  position: static;
+}
+
+.title {
+  text-align: center;
+  display: inline;
+}
+
+.info {
+  text-align: center;
+  list-style-type: none;
+}
+
+.nav-link {
+  padding: 0;
+  margin-bottom: 0;
 }
