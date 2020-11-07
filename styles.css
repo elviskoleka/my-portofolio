@@ -3,22 +3,37 @@
   font-size: 30px;
 }
 
+div {
+  margin-right: 0;
+}
+
+.custom-btn {
+  background-color: #e00d0d;
+}
+
+.custom-btn2 {
+  background-color: #ff0000;
+}
+
+.btn {
+  height: 40px;
+  width: 40px;
+}
+
 #carousel {
   text-align: center;
 }
 
-h3 {
+.follow {
   text-align: center;
 }
 
 button {
   margin: 1%;
-  border-radius: 28px;
 }
 
 .navbar {
-  background-color: #364f6b;
-  position: static;
+  background-color: #FEC609;
 }
 
 .title {
@@ -26,12 +41,54 @@ button {
   display: inline;
 }
 
+.text {
+  color: #222222;
+}
+
 .info {
-  text-align: center;
   list-style-type: none;
+}
+
+.download_btn {
+  display: block;
+  background: #fec608;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 20px;
+  color: #222222;
+  font-size: 18px;
+  font-family: "Yellowtail", cursive;
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+
+}
+
+.margin {
+  margin-right: 0;
 }
 
 .nav-link {
   padding: 0;
   margin-bottom: 0;
+}
+
+.picture {
+  height: 300px;
+  width: 300px;
+}
+
+ul {
+  margin-right: 0;
+}
+
+.testimonial-image {
+  text-align: center;
+  height: 500px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
